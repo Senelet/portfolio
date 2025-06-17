@@ -1,0 +1,125 @@
+.container {
+  padding: 2rem;
+  min-height: calc(100vh - 56px);
+  margin-top: 56px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  background-color: var(--background-color);
+}
+
+.content-box {
+  width: 100%;
+  max-width: 1200px;
+  background-color: var(--card-background);
+  border-radius: 20px;
+  box-shadow: 0 8px 32px var(--shadow-color);
+  padding: 3rem;
+  margin: 0 auto;
+}
+
+h1 {
+  color: var(--text-primary);
+  font-weight: 600;
+  margin-bottom: 2rem;
+  text-align: center;
+}
+
+.about-content {
+  display: flex;
+  flex-direction: column;
+  gap: 2rem;
+}
+
+.profile-section {
+  composes: section-box;
+  border-radius: 20px;
+  padding: 2rem;
+  display: flex;
+  align-items: center;
+  gap: 2rem;
+}
+
+.profile-image {
+  width: 150px;
+  height: 150px;
+  border-radius: 50%;
+  object-fit: cover;
+  border: 3px solid var(--primary-color);
+}
+
+.profile-info h2 {
+  color: var(--text-primary);
+  margin-bottom: 0.5rem;
+}
+
+.profile-info p {
+  color: var(--text-secondary);
+}
+
+.bio-section {
+  padding: 2rem;
+  border-top-left-radius: 20px;
+  border-top-right-radius: 20px;
+  composes: section-box;
+}
+
+.bio-section p {
+  color: var(--text-secondary);
+  line-height: 1.8;
+  margin: 0;
+}
+
+.skills-section {
+  padding: 2rem;
+  border-bottom-left-radius: 20px;
+  border-bottom-right-radius: 20px;
+  composes: section-box;
+}
+
+.skills-section h2 {
+  color: var(--text-primary);
+  margin-bottom: 1.5rem;
+  padding-bottom: 0.5rem;
+  border-bottom: 2px solid var(--primary-color);
+}
+
+.skills-section ul {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+.skills-section li {
+  color: var(--text-secondary);
+  margin-bottom: 0.5rem;
+  padding-left: 1.5rem;
+  position: relative;
+}
+
+.skills-section li::before {
+  content: '•';
+  color: var(--primary-color);
+  position: absolute;
+  left: 0;
+}
+
+.section-box, .profile-section, .bio-section, .skills-section {
+  background-color: var(--card-inner-background) !important;
+}
+
+@media (max-width: 768px) {
+  .content-box {
+    padding: 2rem;
+  }
+  
+  .profile-section {
+    flex-direction: column;
+    text-align: center;
+  }
+  
+  .profile-image {
+    width: 120px;
+    height: 120px;
+  }
+}

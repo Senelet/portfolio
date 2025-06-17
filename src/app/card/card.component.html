@@ -1,0 +1,17 @@
+<div class="section-box card" [class.expanded]="expanded" (click)="onExpand()" [@expandAnimation]="expanded ? expandAnimState : null">
+  <button *ngIf="expanded" class="close-btn" (click)="onCloseCard($event)">×</button>
+  <div class="card-image">
+    <img [src]="imageUrl" [alt]="title" class="img-fluid">
+  </div>
+  <div class="card-body">
+    <h5 class="card-title">{{ title }}</h5>
+    <h6 class="card-subtitle">{{ company }}</h6>
+    <p class="card-period">{{ period }}</p>
+    <p class="card-description">{{ expanded ? description : (description | slice:0:160) + (description.length > 160 ? '...' : '') }}</p>
+    <div class="skills-container">
+      <app-skill *ngFor="let skill of skills" 
+                [name]="skill.name">
+      </app-skill>
+    </div>
+  </div>
+</div>

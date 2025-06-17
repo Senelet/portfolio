@@ -1,0 +1,33 @@
+<div class="container">
+  <div class="content-box">
+    <h1>Expériences Professionnelles</h1>
+    <div class="row">
+      <div class="col-md-6" *ngFor="let experience of experiences; let i = index">
+        <app-card
+          [title]="experience.title"
+          [company]="experience.company"
+          [period]="experience.period"
+          [description]="experience.description"
+          [imageUrl]="experience.imageUrl"
+          [skills]="experience.skills"
+          [@slideIn]="cardStates[i]"
+          (expand)="expandExperience(i)">
+        </app-card>
+      </div>
+    </div>
+    <div *ngIf="expandedIndex !== null" class="project-overlay" (click)="closeExpandedExperience()">
+      <app-card
+        [title]="experiences[expandedIndex].title"
+        [company]="experiences[expandedIndex].company"
+        [period]="experiences[expandedIndex].period"
+        [description]="experiences[expandedIndex].fullDescription"
+        [imageUrl]="experiences[expandedIndex].imageUrl"
+        [skills]="experiences[expandedIndex].skills"
+        [expanded]="true"
+        [expandAnimState]="expandedAnimState"
+        (click)="$event.stopPropagation()"
+        (closeCard)="closeExpandedExperience()">
+      </app-card>
+    </div>
+  </div>
+</div>

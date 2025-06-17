@@ -1,0 +1,97 @@
+.section-box.card {
+  background-color: var(--card-inner-background);
+}
+
+.card {
+  background-color: var(--card-inner-background);
+  overflow: hidden;
+  height: 100%;
+  cursor: pointer;
+  transition: transform 0.4s cubic-bezier(.4,2,.6,1), box-shadow 0.4s, opacity 0.35s;
+}
+
+.card.expanded {
+  cursor: default;
+  max-width: 800px;
+  width: 90%;
+  margin: auto;
+}
+
+.card-image {
+  width: 100%;
+  height: 200px;
+  overflow: hidden;
+  margin-top: 1rem;
+}
+
+.card-image img {
+  width: 100%;
+  height: 100%;
+  object-fit: contain;
+  transition: transform 0.3s ease;
+}
+
+.card.expanded .card-image {
+  height: 300px;
+}
+
+.card.expanded .card-image img {
+  object-fit: contain;
+  transform: none;
+}
+
+.section-box.card:hover .card-image img {
+  transform: scale(1.05);
+}
+
+.card-body {
+  padding: 2rem;
+}
+
+.card-title {
+  color: var(--text-primary);
+  font-weight: 600;
+  margin-bottom: 0.5rem;
+}
+
+.card-subtitle {
+  color: var(--text-secondary);
+  font-weight: 500;
+  margin-bottom: 0.5rem;
+}
+
+.card-period {
+  color: var(--text-muted);
+  font-size: 0.9rem;
+  margin-bottom: 1rem;
+}
+
+.card-description {
+  color: var(--text-secondary);
+  line-height: 1.6;
+  margin-bottom: 1.5rem;
+}
+
+.skills-container {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.5rem;
+  margin-top: 1rem;
+}
+
+::ng-deep .close-btn {
+  position: absolute;
+  top: 1rem;
+  right: 1rem;
+  font-size: 2rem;
+  background: none;
+  border: none;
+  color: var(--text-primary);
+  cursor: pointer;
+  z-index: 10000;
+  transition: color 0.2s;
+}
+
+::ng-deep .close-btn:hover {
+  color: var(--primary-color);
+}

@@ -1,0 +1,17 @@
+.skill-badge {
+  display: inline-block;
+  padding: 0.5rem 1rem;
+  background-color: var(--section-background);
+  color: var(--text-primary);
+  border-radius: 20px;
+  font-size: 0.9rem;
+  font-weight: 500;
+  transition: all 0.3s ease;
+  border: 1px solid var(--border-color);
+}
+
+.skill-badge:hover {
+  transform: translateY(-2px);
+  background-color: var(--card-background);
+  box-shadow: 0 4px 8px var(--shadow-color);
+} 

@@ -1,0 +1,31 @@
+<div class="container">
+  <div class="content-box">
+    <h1>Mes Projets</h1>
+    <div class="row">
+      <div class="col-md-6" *ngFor="let project of projects; let i = index">
+        <app-project-card
+          [title]="project.title"
+          [description]="project.description"
+          [imageUrl]="project.imageUrl"
+          [githubUrl]="project.githubUrl"
+          [skills]="project.skills"
+          [index]="i"
+          (expand)="expandProject(i)">
+        </app-project-card>
+      </div>
+    </div>
+    <div *ngIf="expandedIndex !== null" class="project-overlay" (click)="closeExpandedProject()">
+      <app-project-card
+        [title]="projects[expandedIndex].title"
+        [description]="projects[expandedIndex].fullDescription"
+        [imageUrl]="projects[expandedIndex].imageUrl"
+        [githubUrl]="projects[expandedIndex].githubUrl"
+        [skills]="projects[expandedIndex].skills"
+        [expanded]="true"
+        [expandAnimState]="expandedAnimState"
+        (click)="$event.stopPropagation()"
+        (closeCard)="closeExpandedProject()">
+      </app-project-card>
+    </div>
+  </div>
+</div> 

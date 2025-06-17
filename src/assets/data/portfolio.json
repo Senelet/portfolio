@@ -1,0 +1,194 @@
+{
+  "skills": [
+    {
+      "name": "Angular",
+      "category": "Frontend"
+    },
+    {
+      "name": "TypeScript",
+      "category": "Frontend"
+    },
+    {
+      "name": "CSS",
+      "category": "Frontend"
+    },
+    {
+      "name": "HTML",
+      "category": "Frontend"
+    },
+    {
+      "name": "Expo",
+      "category": "Frontend"
+    },
+    {
+      "name": "Node.js",
+      "category": "Backend"
+    },
+    {
+      "name": "MongoDB",
+      "category": "Database"
+    },
+    {
+      "name": "PHP",
+      "category": "Backend"
+    },
+    {
+      "name": "C",
+      "category": "Backend"
+    },
+    {
+      "name": "Algorithmie",
+      "category": "Others"
+    },
+    {
+      "name": "Python",
+      "category": "Backend"
+    },
+    {
+      "name": "Java",
+      "category": "Backend"
+    },
+    {
+      "name": "SQL",
+      "category": "Database"
+    },
+    {
+      "name": "Git",
+      "category": "Others"
+    },
+    {
+      "name": "AWS",
+      "category": "Others"
+    },
+    {
+      "name": "Docker",
+      "category": "Others"
+    },
+    {
+      "name": "MariaDB",
+      "category": "Database"
+    },
+    {
+      "name": "React Native",
+      "category": "Frontend"
+    },
+    {
+      "name": "Travail en équipe",
+      "category": "Others"
+    },
+    {
+      "name": "Gestion des tests",
+      "category": "Others"
+    },
+    {
+      "name": "Automatisation",
+      "category": "Others"
+    },
+    {
+      "name": "Gestion d'API",
+      "category": "Database"
+    },
+    {
+      "name": "Mathématiques",
+      "category": "Others"
+    }
+    
+    
+    
+    
+    
+  ],
+  "experiences": [
+    {
+      "title": "Développeur Full Stack",
+      "company": "Tech Solutions",
+      "period": "2022 - Présent",
+      "description": "Développement d'applications web full-stack avec Angular et Node.js. Mise en place de CI/CD et déploiement sur AWS.",
+      "fullDescription": "En tant que développeur Full Stack, j'ai contribué au développement d'applications web modernes en utilisant Angular pour le frontend et Node.js pour le backend. Mes responsabilités incluaient :\n\n• La conception et l'implémentation d'architectures cloud scalables\n• La mise en place de pipelines CI/CD avec GitHub Actions\n• L'optimisation des performances et la résolution de problèmes de scalabilité\n• La collaboration avec les équipes DevOps pour le déploiement sur AWS\n• La mise en place de bonnes pratiques de développement et de tests automatisés",
+      "imageUrl": "assets/images/application_gestion_vols.png",
+      "skills": [
+        { "name": "Angular" },
+        { "name": "Node.js" },
+        { "name": "AWS" }
+      ]
+    },
+    {
+      "title": "Développeur Frontend",
+      "company": "Web Innovate",
+      "period": "2020 - 2022",
+      "description": "Création d'interfaces utilisateur modernes avec React et TypeScript. Optimisation des performances et accessibilité.",
+      "fullDescription": "En tant que développeur Frontend, j'ai travaillé sur la création d'interfaces utilisateur modernes et accessibles. Mes réalisations incluent :\n\n• Le développement d'applications React avec TypeScript\n• L'implémentation de composants réutilisables et maintenables\n• L'optimisation des performances avec le code splitting et le lazy loading\n• La mise en place de tests unitaires et d'intégration\n• La collaboration étroite avec les designers pour une expérience utilisateur optimale",
+      "imageUrl": "assets/images/web-innovate.jpg",
+      "skills": [
+        { "name": "React" },
+        { "name": "TypeScript" },
+        { "name": "CSS3" }
+      ]
+    }
+  ],
+  "projects": [
+    {
+      "title": "Affichage des vols dans un un aéroport",
+      "description": "Application C permettant l'affichage de données tirées d'un fichier .csv sur un tableau.",
+      "fullDescription": "Il s'agit d'une application C qui permet d'afficher les vols dans un aéroport en fonction de leur destination. Les données sont tirées d'un fichier .csv et affichées sur un tableau. L'application permet de rechercher les vols à venir à l'aide de différents criètres, d'afficher les vols des 3 prochaines heures mais également les passagers de ce vol. Cette application a été développée avec pour but d'apprendre à maitriser les pointeurs en C, mais également la notion d'extraction de données et de structure de données.",
+      "imageUrl": "assets/images/application_gestion_vols.png",
+      "githubUrl": "https://github.com/Senelet/BUT1-s1-gestion-aeroport",
+      "skills": [
+        { "name": "C" },
+        { "name": "Algorithmie" },
+        { "name": "Travail en équipe" }
+      ]
+    },
+    {
+      "title": "Application de gestion de vol d'une compagnie aérienne",
+      "description": "Une application Java permettant la gestion de conflit de vols entre plusieurs avions.",
+      "fullDescription": "Application Java permettant la gestion de conflit de vols entre plusieurs avions. Cette application a été développée avec pour but d'apprendre à maitriser Java, mais également la notion d'interface avec l'utilisateur, le système de Listeners, les tests (unitaires dans notre cas). Ce projet aura également permis l'implémentation de la notion mathématique des graphes, des parcours et des colorations..",
+      "imageUrl": "assets/images/application_gestion_vols.png",
+      "githubUrl": "https://github.com/votre-username/todo-app",
+      "skills": [
+        { "name": "Java" },
+        { "name": "Algorithmie" },
+        { "name": "Travail en équipe" },
+        { "name": "Mathématiques" }
+      ]
+    },
+    {
+      "title": "Site web de présentation des transports sur le campus de l'IUT",
+      "description": "Un site web statique permettant de présenter les transports sur le campus de l'IUT.",
+      "fullDescription": "Un site web statique permettant de présenter les différents moyens de transports sur le campus de l'IUT. Ce site a été développé avec pour but d'apprendre à maitriser HTML et CSS, il met en valeur les différents moyens de transports pouvant être utilisés sur le campus de l'IUT par les étudiants.",
+      "imageUrl": "assets/images/api.jpg",
+      "githubUrl": "https://github.com/votre-username/api",
+      "skills": [
+        { "name": "HTML" },
+        { "name": "CSS" }
+      ]
+    },
+    {
+      "title": "Blog de commentaire d'articles traitants d'animés et de mangas",
+      "description": "Un blog développé en PHP, HTML et CSS, utilisant une base de données PhpMyAdmin.",
+      "fullDescription": "Un blog développé en PHP, HTML et CSS, utilisant une base de données PhpMyAdmin. Ce projet a été développé afin de nous familiariser avec PHP, HTML et CSS, mais également la notion de base de données, de requêtes SQL interne au backend, la gestion de session, de formulaire, etc.",
+      "imageUrl": "assets/images/api.jpg",
+      "githubUrl": "https://github.com/votre-username/api",
+      "skills": [
+        { "name": "SQL" },
+        { "name": "PHP" },
+        { "name": "HTML" },
+        { "name": "CSS" },
+        { "name":"Travail en équipe"}
+      ]
+    },
+    {
+      "title": "Gestionnaire de réservation de livre pour une bibliothèque",
+      "description": "Un site web permettant la gestion de réservation de livre pour une bibliothèque.",
+      "fullDescription": "Un site web permettant la gestion de réservation de livre pour une bibliothèque. Ce site web a été développé dans le cadre d'un projet académique, par groupe de 4, avec les langages PHP, HTML, CSS, Javascript et SQL. Ce site permet à l'utilisateur de parcourir un catalogue de livres présent dans la bibliothèque, de les réserver ou d'acheter l'exemplaire digital voulu.",
+      "imageUrl": "assets/images/api.jpg",
+      "githubUrl": "https://github.com/votre-username/api",
+      "skills": [
+        { "name": "Java" },
+        { "name": "Algorithmie" },
+        { "name": "Travail en équipe" },
+        { "name": "Mathématiques" }
+      ]
+    }
+  ]
+} 

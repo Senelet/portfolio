@@ -1,0 +1,27 @@
+<div class="container">
+  <div class="content-box">
+    <h1 [@fadeInUp]="titleState">À propos de moi</h1>
+    <div class="about-content" [@fadeInUp]="contentState">
+      <div class="profile-section">
+        <img src="assets/images/profile.jpg" alt="Photo de profil" class="profile-image">
+        <div class="profile-info">
+          <h2>Développeur Full Stack</h2>
+          <p>Passionné par le développement web et les nouvelles technologies</p>
+        </div>
+      </div>
+      <div class="bio-section">
+        <p>Je suis un développeur full stack avec une passion pour la création d'applications web modernes et performantes. Mon expertise couvre l'ensemble de la stack technologique, du front-end au back-end.</p>
+      </div>
+    </div>
+    <div class="skills-section" [@fadeInUp]="skillsState">
+      <h2>Compétences clés</h2>
+      <ul>
+        <li>Développement Front-end (Angular, React)</li>
+        <li>Développement Back-end (Node.js, Python)</li>
+        <li>Bases de données (MongoDB, PostgreSQL)</li>
+        <li>DevOps & Cloud (Docker, AWS)</li>
+      </ul>
+    </div>
+  </div>
+</div>
+  

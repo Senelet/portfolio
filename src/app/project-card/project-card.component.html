@@ -1,0 +1,24 @@
+<div class="card" [@cardAnimation]="cardState" [class.expanded]="expanded" (click)="onExpand()"
+     [@expandAnimation]="expanded ? expandAnimState : null">
+  <button *ngIf="expanded" class="close-btn" (click)="onCloseCard($event)">×</button>
+  <div class="card-image">
+    <img [src]="imageUrl" [alt]="title" class="img-fluid"
+         [@imageHover]="imageState"
+         (mouseenter)="onImageHover('hovered')"
+         (mouseleave)="onImageHover('normal')">
+  </div>
+  <div class="card-body">
+    <h5 class="card-title">{{ title }}</h5>
+    <p class="card-description">{{ expanded ? description : (description | slice:0:160) + (description.length > 160 ? '...' : '') }}</p>
+    <div class="skills-container">
+      <app-skill *ngFor="let skill of skills" 
+                [name]="skill.name">
+      </app-skill>
+    </div>
+    <div class="card-footer">
+      <a [href]="githubUrl" target="_blank" (click)="$event.stopPropagation()" class="github-link">
+        <i class="fab fa-github"></i> Voir sur GitHub
+      </a>
+    </div>
+  </div>
+</div> 
