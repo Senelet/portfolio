@@ -99,9 +99,31 @@
     {
       "name": "Zapier",
       "category": "Others"
+    },
+    {
+      "name": "Réaliser une application",
+      "category": "Compétences BUT"
+    },
+    {
+      "name": "Optimiser une application, un système",
+      "category": "Compétences BUT"
+    },
+    {
+      "name": "Administrer un système",
+      "category": "Compétences BUT"
+    },
+    {
+      "name": "Gérer des données",
+      "category": "Compétences BUT"
+    },
+    {
+      "name": "Conduire un projet",
+      "category": "Compétences BUT"
+    },
+    {
+      "name": "Collaborer en équipe",
+      "category": "Compétences BUT"
     }
-    
-    
   ],
   "experiences": [
     {
@@ -181,7 +203,12 @@
       "skills": [
         { "name": "Node.js" },
         { "name": "Travail en équipe"},
-        { "name": "Gestion d'API"}
+        { "name": "Gestion d'API"},
+        { "name": "Conduire un projet"},
+        { "name": "Gérer des données"},
+        { "name": "Collaborer en équipe"},
+        { "name": "Optimiser une application, un système"},
+        { "name": "Administrer un système"}
       ]
     },
     {
@@ -194,7 +221,12 @@
         { "name": "Java" },
         { "name": "Algorithmie" },
         { "name": "Travail en équipe" },
-        { "name": "Automatisation" }
+        { "name": "Automatisation" },
+        { "name": "Conduire un projet" },
+        { "name": "Gérer des données" },
+        { "name": "Mathématiques" },
+        { "name": "Réaliser une application" },
+        { "name": "Optimiser une application, un système" }
       ]
     },
     {
@@ -212,7 +244,9 @@
         { "name": "MariaDB"},
         { "name": "React Native"},
         { "name": "Expo"},
-        { "name": "Golang"}
+        { "name": "Golang"},
+        { "name": "Collaborer en équipe"},
+        { "name": "Optimiser une application, un système"}
       ]
     }
 
