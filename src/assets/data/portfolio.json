@@ -110,7 +110,7 @@
       "period": "14/03/2025 - 11/07/2025",
       "description": "Participation à la gestion du DSI de Wiplay Music",
       "fullDescription": "En tant que  membre du DSI, j'ai participé à l'automatisation de la gestion des données de Wiplay Music, en utilisant Make et Zapier comme logiciels low code, Node.js pour le backend et les requêtes API. Mes responsabilités incluaient la gestion des erreurs rencontrées dans tous les process actuels, les nombreuses demandes faites par lses autres services afin de faciliter leur travail, la mise en place d'un système de tunnel de vente amenant le client directement au paiement sans passer par une interaction humaine et finalement la gestion des tests d'intégration et d'acceptation liés à l'application en cours de développement.",
-      "imageUrl": "assets/images/application_gestion_vols.png",
+      "imageUrl": "assets/images/wiplay.png",
       "skills": [
         { "name": "Make" },
         { "name": "Zapier" },
