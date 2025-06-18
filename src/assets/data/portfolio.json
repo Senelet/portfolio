@@ -102,7 +102,6 @@
     }
     
     
-    
   ],
   "experiences": [
     {
@@ -161,31 +160,61 @@
       ]
     },
     {
-      "title": "Blog de commentaire d'articles traitants d'animés et de mangas",
-      "description": "Un blog développé en PHP, HTML et CSS, utilisant une base de données PhpMyAdmin.",
-      "fullDescription": "Un blog développé en PHP, HTML et CSS, utilisant une base de données PhpMyAdmin. Ce projet a été développé afin de nous familiariser avec PHP, HTML et CSS, mais également la notion de base de données, de requêtes SQL interne au backend, la gestion de session, de formulaire, etc.",
-      "imageUrl": "assets/images/api.jpg",
-      "githubUrl": "Pas de lien pour le moment",
-      "skills": [
-        { "name": "SQL" },
-        { "name": "PHP" },
-        { "name": "HTML" },
-        { "name": "CSS" },
-        { "name":"Travail en équipe"}
-      ]
-    },
-    {
       "title": "Gestionnaire de réservation de livre pour une bibliothèque",
       "description": "Un site web permettant la gestion de réservation de livre pour une bibliothèque.",
       "fullDescription": "Un site web permettant la gestion de réservation de livre pour une bibliothèque. Ce site web a été développé dans le cadre d'un projet académique, par groupe de 4, avec les langages PHP, HTML, CSS, Javascript et SQL. Ce site permet à l'utilisateur de parcourir un catalogue de livres présent dans la bibliothèque, de les réserver ou d'acheter l'exemplaire digital voulu.",
       "imageUrl": "assets/images/libris.png",
-      "githubUrl": "Pas de lien pour le moment",
+      "githubUrl": "https://forge.univ-lyon1.fr/p2310628/libris",
       "skills": [
         { "name": "Java" },
         { "name": "Algorithmie" },
         { "name": "Travail en équipe" },
         { "name": "Mathématiques" }
       ]
+    },
+    {
+      "title": "Organisation d'un tunnel de vente pour une entreprise",
+      "description": "Création et développement d'un tunnel de vente pour une entreprise",
+      "fullDescription": "Le tunnel de vente a été développé à l'aide du CRM Hubspot, ainsi que l'API associée. Le but du projet était d'augmenter le nombre de signatrues des clients en limitant les interactions humaines. Il a fallu générer un formulaire personnalisé, à l'aide du CRM, récupérer les données de celui-ci, et ensuite créer les transactions et le devis associé. Pour toutes les requêtes HTTP, le Node.js a été utilisé, le tout au sein du CRM Hubspot. Il a également fallu dialoguer avec l'ERP Ogust, associé à Hubspot, pour la gestion des règlements.",
+      "imageUrl": "assets/images/devis_tunnel.png",
+      "githubUrl": "Pas de lien pour le moment",
+      "skills": [
+        { "name": "Node.js" },
+        { "name": "Travail en équipe"},
+        { "name": "Gestion d'API"}
+      ]
+    },
+    {
+      "title": "Application de reporting pour le suivi des contrats",
+      "description": "Développement d'une application Java pour l'analyse et le reporting des données clients d'Ogust",
+      "fullDescription": "Développement d'une application Java permettant l'analyse des données clients exportées depuis la plateforme Ogust. L'application permet de traiter plusieurs fichiers d'export Excel pour générer des rapports détaillés sur l'état des contrats clients. Les fonctionnalités principales incluent : l'analyse des étapes du cycle de vie des contrats, le calcul du temps passé à chaque étape, l'identification des clients bloqués, et la génération de graphiques par commercial. L'application a été développée en Java avec IntelliJ IDEA, en utilisant des bibliothèques pour la manipulation de fichiers Excel et la création de graphiques. Le projet a nécessité plusieurs itérations pour gérer les variations dans la structure des fichiers d'export et l'ajout de nouvelles fonctionnalités comme l'intégration des données commerciales. L'application a été finalement packagée en un fichier .jar exécutable pour faciliter son déploiement.",
+      "imageUrl": "assets/images/reporting_app.png",
+      "githubUrl": "Pas de lien pour le moment",
+      "skills": [
+        { "name": "Java" },
+        { "name": "Algorithmie" },
+        { "name": "Travail en équipe" },
+        { "name": "Automatisation" }
+      ]
+    },
+    {
+      "title": "BugTracking pour une application mobile",
+      "description": "Détection des bugs d'intégration liés à l'application mobile de Wiplay Music",
+      "fullDescription": "Détection des bugs d'intégration liés à l'application mobile de Wiplay Music. Ce projet consistait à détecter les diffents problèmes rencontrés par l'application mobile de Wiplay Music, et à les faire remonter à l'quipe de développeurs. Pour ce faire, il a fallu mettre en place un BugTracking, avec un système de tickets, et un système de suivi des bugs. ",
+      "imageUrl": "assets/images/appli.png",
+      "githubUrl": "Pas de lien pour le moment",
+      "skills": [
+        { "name": "Travail en équipe"},
+        { "name": "Gestion d'API"},
+        { "name": "Gestion des tests"},
+        { "name": "Docker"},
+        { "name": "AWS"},
+        { "name": "MariaDB"},
+        { "name": "React Native"},
+        { "name": "Expo"},
+        { "name": "Golang"}
+      ]
     }
+
   ]
 } 

@@ -1,0 +1,14 @@
+{
+  "title": "Blog de commentaire d'articles traitants d'animés et de mangas",
+  "description": "Un blog développé en PHP, HTML et CSS, utilisant une base de données PhpMyAdmin.",
+  "fullDescription": "Un blog développé en PHP, HTML et CSS, utilisant une base de données PhpMyAdmin. Ce projet a été développé afin de nous familiariser avec PHP, HTML et CSS, mais également la notion de base de données, de requêtes SQL interne au backend, la gestion de session, de formulaire, etc.",
+  "imageUrl": "assets/images/api.jpg",
+  "githubUrl": "https://forge.univ-lyon1.fr/p2306740/blog",
+  "skills": [
+    { "name": "SQL" },
+    { "name": "PHP" },
+    { "name": "HTML" },
+    { "name": "CSS" },
+    { "name":"Travail en équipe"}
+  ]
+}
