@@ -16,7 +16,7 @@
       </app-skill>
     </div>
     <div class="card-footer">
-      <a [href]="githubUrl" target="_blank" (click)="$event.stopPropagation()" class="github-link">
+      <a *ngIf="githubUrl && githubUrl !== 'Pas de lien pour le moment'" [href]="githubUrl" target="_blank" (click)="$event.stopPropagation()" class="github-link">
         <i class="fab fa-github"></i> Voir sur GitHub
       </a>
     </div>

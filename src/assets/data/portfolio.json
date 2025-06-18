@@ -91,38 +91,35 @@
     {
       "name": "Mathématiques",
       "category": "Others"
+    },
+    {
+      "name": "Make",
+      "category": "Others"
+    },
+    {
+      "name": "Zapier",
+      "category": "Others"
     }
-    
-    
     
     
     
   ],
   "experiences": [
     {
-      "title": "Développeur Full Stack",
-      "company": "Tech Solutions",
-      "period": "2022 - Présent",
-      "description": "Développement d'applications web full-stack avec Angular et Node.js. Mise en place de CI/CD et déploiement sur AWS.",
-      "fullDescription": "En tant que développeur Full Stack, j'ai contribué au développement d'applications web modernes en utilisant Angular pour le frontend et Node.js pour le backend. Mes responsabilités incluaient :\n\n• La conception et l'implémentation d'architectures cloud scalables\n• La mise en place de pipelines CI/CD avec GitHub Actions\n• L'optimisation des performances et la résolution de problèmes de scalabilité\n• La collaboration avec les équipes DevOps pour le déploiement sur AWS\n• La mise en place de bonnes pratiques de développement et de tests automatisés",
+      "title": "Développeur stagiaire chez Wiplay Music",
+      "company": "Wiplay Music",
+      "period": "14/03/2025 - 11/07/2025",
+      "description": "Participation à la gestion du DSI de Wiplay Music",
+      "fullDescription": "En tant que  membre du DSI, j'ai participé à l'automatisation de la gestion des données de Wiplay Music, en utilisant Make et Zapier comme logiciels low code, Node.js pour le backend et les requêtes API. Mes responsabilités incluaient la gestion des erreurs rencontrées dans tous les process actuels, les nombreuses demandes faites par lses autres services afin de faciliter leur travail, la mise en place d'un système de tunnel de vente amenant le client directement au paiement sans passer par une interaction humaine et finalement la gestion des tests d'intégration et d'acceptation liés à l'application en cours de développement.",
       "imageUrl": "assets/images/application_gestion_vols.png",
       "skills": [
-        { "name": "Angular" },
+        { "name": "Make" },
+        { "name": "Zapier" },
         { "name": "Node.js" },
-        { "name": "AWS" }
-      ]
-    },
-    {
-      "title": "Développeur Frontend",
-      "company": "Web Innovate",
-      "period": "2020 - 2022",
-      "description": "Création d'interfaces utilisateur modernes avec React et TypeScript. Optimisation des performances et accessibilité.",
-      "fullDescription": "En tant que développeur Frontend, j'ai travaillé sur la création d'interfaces utilisateur modernes et accessibles. Mes réalisations incluent :\n\n• Le développement d'applications React avec TypeScript\n• L'implémentation de composants réutilisables et maintenables\n• L'optimisation des performances avec le code splitting et le lazy loading\n• La mise en place de tests unitaires et d'intégration\n• La collaboration étroite avec les designers pour une expérience utilisateur optimale",
-      "imageUrl": "assets/images/web-innovate.jpg",
-      "skills": [
-        { "name": "React" },
-        { "name": "TypeScript" },
-        { "name": "CSS3" }
+        { "name": "AWS" },
+        { "name": "Travail en équipe" },
+        { "name": "Gestion d'API" },
+        { "name": "Gestion des tests" }
       ]
     }
   ],
@@ -142,9 +139,9 @@
     {
       "title": "Application de gestion de vol d'une compagnie aérienne",
       "description": "Une application Java permettant la gestion de conflit de vols entre plusieurs avions.",
-      "fullDescription": "Application Java permettant la gestion de conflit de vols entre plusieurs avions. Cette application a été développée avec pour but d'apprendre à maitriser Java, mais également la notion d'interface avec l'utilisateur, le système de Listeners, les tests (unitaires dans notre cas). Ce projet aura également permis l'implémentation de la notion mathématique des graphes, des parcours et des colorations..",
-      "imageUrl": "assets/images/application_gestion_vols.png",
-      "githubUrl": "https://github.com/votre-username/todo-app",
+      "fullDescription": "Application Java permettant la gestion de conflit de vols entre plusieurs avions. Cette application a été développée avec pour but d'apprendre à maitriser Java, mais également la notion d'interface avec l'utilisateur, le système de Listeners, les tests (unitaires dans notre cas). Ce projet aura également permis l'implémentation de la notion mathématique des graphes, des parcours et des colorations.",
+      "imageUrl": "assets/images/application_vols.png",
+      "githubUrl": "https://github.com/Senelet/BUT1-s2-gestion-vols",
       "skills": [
         { "name": "Java" },
         { "name": "Algorithmie" },
@@ -156,8 +153,8 @@
       "title": "Site web de présentation des transports sur le campus de l'IUT",
       "description": "Un site web statique permettant de présenter les transports sur le campus de l'IUT.",
       "fullDescription": "Un site web statique permettant de présenter les différents moyens de transports sur le campus de l'IUT. Ce site a été développé avec pour but d'apprendre à maitriser HTML et CSS, il met en valeur les différents moyens de transports pouvant être utilisés sur le campus de l'IUT par les étudiants.",
-      "imageUrl": "assets/images/api.jpg",
-      "githubUrl": "https://github.com/votre-username/api",
+      "imageUrl": "assets/images/uni_doux.png",
+      "githubUrl": "https://github.com/Senelet/uni-doux",
       "skills": [
         { "name": "HTML" },
         { "name": "CSS" }
@@ -168,7 +165,7 @@
       "description": "Un blog développé en PHP, HTML et CSS, utilisant une base de données PhpMyAdmin.",
       "fullDescription": "Un blog développé en PHP, HTML et CSS, utilisant une base de données PhpMyAdmin. Ce projet a été développé afin de nous familiariser avec PHP, HTML et CSS, mais également la notion de base de données, de requêtes SQL interne au backend, la gestion de session, de formulaire, etc.",
       "imageUrl": "assets/images/api.jpg",
-      "githubUrl": "https://github.com/votre-username/api",
+      "githubUrl": "Pas de lien pour le moment",
       "skills": [
         { "name": "SQL" },
         { "name": "PHP" },
@@ -181,8 +178,8 @@
       "title": "Gestionnaire de réservation de livre pour une bibliothèque",
       "description": "Un site web permettant la gestion de réservation de livre pour une bibliothèque.",
       "fullDescription": "Un site web permettant la gestion de réservation de livre pour une bibliothèque. Ce site web a été développé dans le cadre d'un projet académique, par groupe de 4, avec les langages PHP, HTML, CSS, Javascript et SQL. Ce site permet à l'utilisateur de parcourir un catalogue de livres présent dans la bibliothèque, de les réserver ou d'acheter l'exemplaire digital voulu.",
-      "imageUrl": "assets/images/api.jpg",
-      "githubUrl": "https://github.com/votre-username/api",
+      "imageUrl": "assets/images/libris.png",
+      "githubUrl": "Pas de lien pour le moment",
       "skills": [
         { "name": "Java" },
         { "name": "Algorithmie" },
